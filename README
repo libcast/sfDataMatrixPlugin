@@ -1,0 +1,20 @@
+sfDataMatrixPlugin
+==================
+
+Installation
+------------
+
+You have to install [libdmtx](http://www.libdmtx.org/downloads.php libdmtx) first.
+And then the plugin itself:
+
+    symfony plugin:install sfDataMatrixPlugin --stability="beta"
+
+
+Usage
+-----
+
+The sfDataMatrix plugin provides helper to create Data matrix code image in your symfony 1.x projects.
+
+    [php]
+    &lt;?php use_helper(&#039;Datamatrix&#039;?&gt;
+    &lt;?php echo datamatrix(&#039;http://github.com/libcast/sfDataMatrixPlugin&#039;);?&gt;
